@@ -1,16 +1,24 @@
-#newbook-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100px;
-    margin-left: 600px;
-    margin-top: 30px;
+#new-book-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
     background-color: blue;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
 }
+
+form{
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
